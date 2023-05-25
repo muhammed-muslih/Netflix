@@ -1,0 +1,27 @@
+.posterDiv{
+    margin-left: 20px;  
+    color: #fff;
+}
+.posters{
+    display: flex;
+    padding: 20px;
+    overflow-x: scroll;
+    overflow-y: hidden;
+}
+.posters::-webkit-scrollbar{
+    display: none;
+}
+.originPosterImage{
+    max-height: 280px;
+    margin-right: 6px;
+    cursor: pointer;
+}
+
+.posterImage {
+    max-height: 190px;
+    margin-right: 6px;
+    cursor: pointer;
+}
+.posters :hover{
+    transform: scale(1.02);
+}

@@ -1,0 +1,35 @@
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    padding-left: 2%;
+    padding-right: 2%;
+    padding-top: 1%;
+    padding-bottom: 1%;
+    background-color: RGB(0 9 29);
+}
+.logo{
+    width: 8rem;
+    color: brown;
+}
+.avatar{
+    width: 3rem;
+    
+}
+.leftSideNav{
+    display: flex;
+}
+.leftSideNav > ul{
+    list-style-type: none;
+    display: flex;
+    justify-content: space-between;
+    color: white;
+    margin-left: 10%;
+
+}
+.leftSideNav > ul > li{
+    padding-left: 2%;
+    padding-right: 2%;
+    margin-top: 5%;
+    margin-left: 4%;
+    /* justify-content: space-between; */
+}
